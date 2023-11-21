@@ -3175,8 +3175,6 @@ tbody.collapse.show {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  display: inline !important;
-  vertical-align: middle !important;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
