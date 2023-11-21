@@ -31,6 +31,10 @@
 
 -----------------------------------*/
 /*my code*/
+@import url('https://fonts.cdnfonts.com/css/arabic');
+*{
+  font-family: 'Arabic', sans-serif !important;
+}
 .more {display: none;}
 .myBtn{
  background: none;
@@ -65,7 +69,6 @@ div.gallery img {
   width: 100%;
   height: auto;
 }
-
 div.desc {
   padding: 15px;
   text-align: center;
@@ -2156,7 +2159,6 @@ select.form-control-lg:not([size]):not([multiple]),
 }
 
 .form-inline {
-  display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
@@ -2165,9 +2167,6 @@ select.form-control-lg:not([size]):not([multiple]),
 }
 @media (min-width: 576px) {
   .form-inline label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 0;
   }
   .form-inline .form-group {
@@ -2178,9 +2177,7 @@ select.form-control-lg:not([size]):not([multiple]),
     margin-bottom: 0;
   }
   .form-inline .form-control {
-    display: inline-block;
     width: auto;
-    vertical-align: middle;
   }
   .form-inline .form-control-plaintext {
     display: inline-block;
@@ -3188,10 +3185,8 @@ tbody.collapse.show {
 }
 
 .navbar-toggler-icon {
-  display: inline-block;
   width: 1.5em;
   height: 1.5em;
-  vertical-align: middle;
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
@@ -3230,6 +3225,12 @@ tbody.collapse.show {
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+  }
+  .eng-lang{
+    display: none;
+  }
+  .eng-btn{
+    display: block !important;
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -12848,7 +12849,7 @@ body.noScroll {
   display: none;
   font-size: 26px;
   padding: 5px 10px;
-  position: absolute;
+  position: unset;
   right: 10px;
   z-index: 1;
 }
