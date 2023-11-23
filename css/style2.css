@@ -31,7 +31,7 @@
 
 -----------------------------------*/
 /*my code*/
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Noto+Sans+Arabic&display=swap');
+@import url(/icons/fonts/Arabic-BF64d249f7c782a.otf);
 *{
   font-family: 'Concert One', sans-serif !important;
   font-family: 'Noto Sans Arabic', sans-serif !important;
@@ -12688,6 +12688,9 @@ body.noScroll {
   .navbar-toggler{
     margin-top: -2rem !important;
   }
+  .eng-btn{
+    display: block;
+  }
 }
 .header-contact {
   font-size: 16px;
@@ -12868,9 +12871,6 @@ body.noScroll {
 @media (max-width: 767px) {
   .navbar-toggler:not(.collapsed) {
     font-size: 18px;
-  }
-  .eng-btn{
-    display: block !important;
   }
 }
 .navbar-toggler:not(.collapsed) .icon-menu:before {
