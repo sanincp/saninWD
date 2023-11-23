@@ -12688,9 +12688,6 @@ body.noScroll {
   .navbar-toggler{
     margin-top: -2rem !important;
   }
-  .eng-btn{
-    display: block;
-  }
 }
 .header-contact {
   font-size: 16px;
@@ -12863,6 +12860,9 @@ body.noScroll {
   .navbar-toggler {
     font-size: 18px;
     right: 0;
+  }
+  .eng-btn{
+    display: block !important;
   }
 }
 .navbar-toggler:not(.collapsed) {
