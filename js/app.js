@@ -184,7 +184,6 @@ $(function () {
 				if ($('.header-content').length) {
 					$stickyNav = new Waypoint.Sticky({
 						element: $('.header-content')[0],
-						offset: -35,
 						handler: function(direction) {
 							$('body').toggleClass('stickNav')
 						}

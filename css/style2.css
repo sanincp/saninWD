@@ -36,6 +36,9 @@
   font-family: 'Concert One', sans-serif !important;
   font-family: 'Noto Sans Arabic', sans-serif !important;
 }
+.eng-btn{
+  display: none;
+}
 .more {display: none;}
 .myBtn{
  background: none;
@@ -12682,7 +12685,7 @@ body.noScroll {
   .header-logo img {
     max-height: 48px;
   }
-  .logo-img-sm{
+  .navbar-toggler{
     margin-top: -2rem !important;
   }
 }
@@ -12865,6 +12868,9 @@ body.noScroll {
 @media (max-width: 767px) {
   .navbar-toggler:not(.collapsed) {
     font-size: 18px;
+  }
+  .eng-btn{
+    display: block !important;
   }
 }
 .navbar-toggler:not(.collapsed) .icon-menu:before {
