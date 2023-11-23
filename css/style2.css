@@ -31,9 +31,10 @@
 
 -----------------------------------*/
 /*my code*/
-@import url('https://fonts.cdnfonts.com/css/arabic');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Noto+Sans+Arabic&display=swap');
 *{
-  font-family: 'Arabic', sans-serif !important;
+  font-family: 'Concert One', sans-serif !important;
+  font-family: 'Noto Sans Arabic', sans-serif !important;
 }
 .more {display: none;}
 .myBtn{
@@ -8226,7 +8227,7 @@ h1,
   }
 }
 
-h2 {
+h2 {           
   line-height: 1em;
   margin-bottom: 10px;
   font-weight: 600;
