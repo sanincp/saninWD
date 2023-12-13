@@ -33,6 +33,7 @@
 /*my code*/
 @import url(/icons/fonts/font.css);
 *{
+  
   font-family: 'Cairo' !important;
     font-style: normal;
     font-display: swap;
@@ -132,13 +133,14 @@ section {
 }
 
 body {
+  background: #f7f4f0;
   margin: 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.75;
   color: #787878;
-  text-align: left;
-  background-color: #fff;
+  text-align: justify !important;
+  text-justify: inter-word !important;
 }
 
 [tabindex="-1"]:focus {
@@ -163,6 +165,7 @@ h6 {
 }
 
 p {
+  text-align: justify;
   margin-top: 0;
   margin-bottom: 1rem;
   direction: rtl !important;
@@ -10870,6 +10873,7 @@ body.touch .tooltip.show {
   left: 0;
   z-index: 0;
   max-width: 120%;
+  background-color: #f7f4f0;
 }
 .video-box-bg img {
   max-width: 100%;
@@ -15170,7 +15174,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 .department-carousel .department-item {
   position: relative;
   z-index: 0;
-  background-color: #ffffff;
+  background-color: #f7f4f0;
   transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
   opacity: 0;
 }

@@ -138,7 +138,7 @@ body {
   line-height: 1.75;
   color: #787878;
   text-align: left;
-  background-color: #fff;
+  background: #f7f4f0;
 }
 
 [tabindex="-1"]:focus {
@@ -162,6 +162,7 @@ h6 {
 }
 
 p {
+  text-align: justify;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -10843,7 +10844,7 @@ body.touch .tooltip.show {
   height: 41px;
   font-size: 16px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #f7f4f0;
   color: #b6957c;
   box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
   transition: 0.5s;
@@ -10890,6 +10891,7 @@ body.touch .tooltip.show {
 }
 
 .video-box-bg {
+  height: 100% !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -10901,7 +10903,7 @@ body.touch .tooltip.show {
 }
 
 .text-image-block {
-  background-color: #f6f7f5;
+  background-color: #f7f4f0;
 }
 .text-image-block .image-col {
   position: relative;
@@ -15157,7 +15159,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 .department-carousel .department-item {
   position: relative;
   z-index: 0;
-  background-color: #ffffff;
+  background-color: #f7f4f0;
   transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
   opacity: 0;
 }
