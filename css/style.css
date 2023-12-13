@@ -2265,8 +2265,8 @@ fieldset[disabled] a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #4d577d;
-  border-color: #495275;
+  background-color: #475347;
+  border-color: #475347;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -2281,7 +2281,7 @@ fieldset[disabled] a.btn {
 .btn-primary:not([disabled]):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #495275;
+  background-color: #475347;
   border-color: #444c6e;
   box-shadow: 0 0 0 0 rgba(92, 104, 149, 0.5);
 }
@@ -2293,8 +2293,8 @@ fieldset[disabled] a.btn {
 }
 .btn-primary-alt:hover {
   color: #fff;
-  background-color: #4d577d;
-  border-color: #495275;
+  background-color: #475347;
+  border-color: #475347;
 }
 .btn-primary-alt:focus,
 .btn-primary-alt.focus {
@@ -2309,7 +2309,7 @@ fieldset[disabled] a.btn {
 .btn-primary-alt:not([disabled]):not(.disabled).active,
 .show > .btn-primary-alt.dropdown-toggle {
   color: #fff;
-  background-color: #495275;
+  background-color: #475347;
   border-color: #444c6e;
   box-shadow: 0 0 0 0 rgba(92, 104, 149, 0.5);
 }
@@ -3620,7 +3620,7 @@ tbody.collapse.show {
 .badge-primary[href]:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #495275;
+  background-color: #475347;
 }
 
 .badge-primary-alt {
@@ -3631,7 +3631,7 @@ tbody.collapse.show {
 .badge-primary-alt[href]:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #495275;
+  background-color: #475347;
 }
 
 .alert {
@@ -3659,7 +3659,7 @@ tbody.collapse.show {
 }
 
 .alert-primary {
-  color: #30364d;
+  color: #475347;
   background-color: #dee1ea;
   border-color: #d1d5e1;
 }
@@ -3671,7 +3671,7 @@ tbody.collapse.show {
 }
 
 .alert-primary-alt {
-  color: #30364d;
+  color: #475347;
   background-color: #dee1ea;
   border-color: #d1d5e1;
 }
@@ -3751,49 +3751,49 @@ tbody.collapse.show {
 }
 
 .nav-link-primary {
-  color: #30364d;
+  color: #475347;
   background-color: #d1d5e1;
 }
 
 a.nav-link-primary,
 button.nav-link-primary {
-  color: #30364d;
+  color: #475347;
 }
 a.nav-link-primary:focus,
 a.nav-link-primary:hover,
 button.nav-link-primary:focus,
 button.nav-link-primary:hover {
-  color: #30364d;
+  color: #475347;
   background-color: #c2c7d7;
 }
 a.nav-link-primary.active,
 button.nav-link-primary.active {
   color: #fff;
-  background-color: #30364d;
-  border-color: #30364d;
+  background-color: #475347;
+  border-color: #475347;
 }
 
 .nav-link-primary-alt {
-  color: #30364d;
+  color: #475347;
   background-color: #d1d5e1;
 }
 
 a.nav-link-primary-alt,
 button.nav-link-primary-alt {
-  color: #30364d;
+  color: #475347;
 }
 a.nav-link-primary-alt:focus,
 a.nav-link-primary-alt:hover,
 button.nav-link-primary-alt:focus,
 button.nav-link-primary-alt:hover {
-  color: #30364d;
+  color: #475347;
   background-color: #c2c7d7;
 }
 a.nav-link-primary-alt.active,
 button.nav-link-primary-alt.active {
   color: #fff;
-  background-color: #30364d;
-  border-color: #30364d;
+  background-color: #475347;
+  border-color: #475347;
 }
 
 .close {
@@ -4267,7 +4267,7 @@ button.close {
 
 a.bg-primary:focus,
 a.bg-primary:hover {
-  background-color: #495275 !important;
+  background-color: #475347 !important;
 }
 
 .bg-primary-alt {
@@ -4276,7 +4276,7 @@ a.bg-primary:hover {
 
 a.bg-primary-alt:focus,
 a.bg-primary-alt:hover {
-  background-color: #495275 !important;
+  background-color: #475347 !important;
 }
 
 .bg-white {
@@ -8014,7 +8014,7 @@ a.bg-primary-alt:hover {
 
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #495275 !important;
+  color: #475347 !important;
 }
 
 .text-primary-alt {
@@ -8023,7 +8023,7 @@ a.text-primary:hover {
 
 a.text-primary-alt:focus,
 a.text-primary-alt:hover {
-  color: #495275 !important;
+  color: #475347 !important;
 }
 
 .text-muted {
@@ -8789,7 +8789,7 @@ body:not(.touch) .btn-hover-fill:hover [class*="icon"] {
 .btn-gradient,
 body:not(.touch) .btn-gradient:focus {
   border: 0;
-  background-image: linear-gradient(to right, #b6957c 0%, #8892b6 100%);
+  background-image: linear-gradient(to right, #b6957c 0%, #475347 100%);
   background-repeat: repeat-x;
   color: #fff;
   box-shadow: none;
@@ -10021,7 +10021,7 @@ ul.services-list li:last-child {
   flex-basis: 81px;
   width: 81px;
   height: 81px;
-  background-image: linear-gradient(to right, #b6957c 0%, #8892b6 100%);
+  background-image: linear-gradient(to right, #b6957c 0%, #475347 100%);
   background-repeat: repeat-x;
   border-radius: 50%;
   color: #fff;
@@ -10584,7 +10584,7 @@ body.touch .tooltip.show {
 }
 .services-nav ul .nav-link:hover,
 .services-nav ul .nav-link.active {
-  background: #8892b6;
+  background: #475347;
   color: #fff;
 }
 .services-nav ul .nav-link:hover:before,
@@ -14153,7 +14153,7 @@ body.noScroll {
   font-size: 16px;
   line-height: 1em;
   font-family: "Poppins", serif;
-  color: #fff;
+  color: #ab8d75 ;
   margin: 0;
   letter-spacing: 0.03em;
 }
@@ -14165,7 +14165,7 @@ body.noScroll {
   line-height: 1.26em;
   font-weight: 400;
   font-family: "Poppins", serif;
-  color: #fff;
+  color: #ab8d75;
   margin: 0;
   text-transform: uppercase;
 }
@@ -14174,6 +14174,15 @@ body.noScroll {
 }
 #mainSlider .slide-btn {
   margin-top: 65px;
+}
+.slide-btn a:hover{
+  background: #475347 !important;
+}
+.rqst-btn:hover{
+  background: #475347 !important;
+}
+.sbt-btn:hover{
+  background: #475347 !important;
 }
 @media (min-width: 1024px) {
   #mainSlider .slide-btn .btn,
@@ -19827,7 +19836,7 @@ body:not(.touch) .quickLinks .col > .link:hover,
   font-size: 14px;
 }
 .quickLinks .col:nth-child(1) > .link {
-  background-color: #56638b;
+  background-color: #475347;
 }
 .quickLinks .col:nth-child(2) > .link {
   background-color: #b6957c;
@@ -21828,7 +21837,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 .layout-landing .btn-gradient,
 .layout-landing:not(.touch) .btn-gradient:focus {
-  background-image: linear-gradient(to right, #b6957c 0%, #8892b6 100%);
+  background-image: linear-gradient(to right, #b6957c 0%, #475347 100%);
   background-repeat: repeat-x;
   color: #fff;
   box-shadow: none;
@@ -21840,7 +21849,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   box-shadow: none;
 }
 .layout-landing:not(.touch) .btn-gradient:hover {
-  background-image: linear-gradient(to right, #8892b6 0%, #b6957c 100%);
+  background-image: linear-gradient(to right, #475347 0%, #b6957c 100%);
   background-repeat: repeat-x;
   color: #fff;
   border: 0 !important;
