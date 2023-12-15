@@ -31,6 +31,18 @@
 
 -----------------------------------*/
 /*my code*/
+.ser-bg{
+  background-image: url(/images/content/slider/leavesbg1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+  .ser-bg {
+    background-image: url(/images/content/slider/leavesbg1.jpg) !important;
+  }
+	}
 .slide-txt3{
   color: #b6957c;
 }
