@@ -32,17 +32,12 @@
 -----------------------------------*/
 /*my code*/
 .ser-bg{
-  background-image: url(/images/content/slider/leavesbg1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url(/images/content/slider/leavsbg2.jpg) !important;
+  background-position: center center !important;
+  background-repeat:repeat !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
 }
-@media only screen and (max-width: 767px) {
-  .ser-bg {
-    background-image: url(/images/content/slider/leavsbg2.jpg);
-  }
-	}
 .slide-txt3{
   color: #b6957c;
 }
