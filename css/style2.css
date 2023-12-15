@@ -14844,7 +14844,7 @@ body.noScroll {
 .service-card-style2 .service-card-icon {
   font-size: 48px;
   line-height: 1em;
-  color: #b6957c;
+  color: #c0ac93 !important;
   display: block;
   margin-left: 80%;
   width: 100%;
@@ -15194,6 +15194,12 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 .department-carousel .department-item.slick-active h3:after {
   opacity: 1;
   left: -7px;
+}
+.department-item p{
+  color: #c0ac93 !important;
+}
+.service-card-style2 p {
+  color: #7c6c6c !important;
 }
 .department-carousel .department-tab {
   display: none;
