@@ -31,6 +31,12 @@
 
 -----------------------------------*/
 /*my code*/
+.ser-bg{
+  background-position: center center !important;
+  background-repeat:repeat !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+}
 .more {display: none;}
 .myBtn{
  background: none;

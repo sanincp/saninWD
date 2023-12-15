@@ -2,6 +2,12 @@ section {
     padding: 60px 0;
     min-height: 100vh;
 }
+.ser-bg{
+  background-position: center center !important;
+  background-repeat:repeat !important;
+  background-attachment: fixed !important;
+  background-size: contain !important;
+}
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     outline: none;
@@ -10,10 +16,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}.bg-gray {
-    background-color: #f9f9f9;
 }
-
 .site-heading h2 {
   display: block;
   font-weight: 700;
