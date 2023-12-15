@@ -31,6 +31,9 @@
 
 -----------------------------------*/
 /*my code*/
+.slide-txt3{
+  color: #b6957c;
+}
 @import url(/icons/fonts/font.css);
 *{
   
@@ -15201,10 +15204,15 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   left: -7px;
 }
 .department-item p{
-  color: #c0ac93 !important;
+  color: black !important;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 .service-card-style2 p {
-  color: #7c6c6c !important;
+  color: black !important;
+}
+.icn-text-alt p{
+  color: black !important;
 }
 .department-carousel .department-tab {
   display: none;
