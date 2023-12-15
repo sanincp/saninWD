@@ -15191,11 +15191,13 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   opacity: 1;
   z-index: 1;
 }
-#servicesSection{
-  background-image: url('images/content/slider/leavsbg2.jpg') !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed !important; 
-  background-size: 100% 100% !important;
+.service-section{
+   background-image: url("images/content/slider/leavsbg2.jpg") !important;
+   height: 100% !important;
+   background-attachment: fixed !important;
+   background-position: center !important;
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
 }
 .department-carousel .department-item.slick-active h3:after {
   opacity: 1;
