@@ -25,7 +25,7 @@ ul {
 }
 
 .site-heading h2 span {
-  color: #b6957c;
+  color: #a38972;
 }
 
 .site-heading h4 {
@@ -40,7 +40,7 @@ ul {
 }
 
 .site-heading h4::before {
-  background: #b6957c none repeat scroll 0 0;
+  background: #a38972 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 2px;
@@ -70,13 +70,13 @@ ul {
 }
 
 .we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
-  background: #b6957c none repeat scroll 0 0;
-  border-color: #b6957c;
+  background: #a38972 none repeat scroll 0 0;
+  border-color: #a38972;
 }
 
 .we-offer-area .item {
   background: #ffffff none repeat scroll 0 0;
-  border-left: 2px solid #b6957c;
+  border-left: 2px solid #a38972;
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
@@ -115,7 +115,7 @@ ul {
 }
 
 .we-offer-area.text-center .item i::after {
-  border: 2px solid #b6957c;
+  border: 2px solid #a38972;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -153,7 +153,7 @@ ul {
 
 .our-offer-carousel.center-active .owl-item:nth-child(2n) .item,
 .we-offer-area.center-active .single-item:nth-child(2n) .item {
-  background: #b6957c none repeat scroll 0 0;
+  background: #a38972 none repeat scroll 0 0;
 }
 
 .our-offer-carousel.center-active .owl-item:nth-child(2n) .item i,
@@ -166,7 +166,7 @@ ul {
 }
 
 .we-offer-area .item i {
-  color: #b6957c;
+  color: #a38972;
   display: inline-block;
   font-size: 60px;
   margin-bottom: 20px;
@@ -192,7 +192,7 @@ ul {
 }
 
 .we-offer-area .item::after {
-  background: #b6957c none repeat scroll 0 0;
+  background: #a38972 none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: -100%;
@@ -208,7 +208,7 @@ ul {
 }
 
 .we-offer-area.text-left .item i {
-  background: #b6957c none repeat scroll 0 0;
+  background: #a38972 none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -225,7 +225,7 @@ ul {
 }
 
 .we-offer-area.text-left .item i::after {
-  border: 2px solid #b6957c;
+  border: 2px solid #a38972;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
