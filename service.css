@@ -6,11 +6,10 @@ section {
   background: #ffffff !important;
 }
 .ser-bg{
-  background-image: url(/images/content/slider/leavesbg1.jpg);
   background-position: center center !important;
-  background-repeat:no-repeat !important;
+  background-repeat:repeat !important;
   background-attachment: fixed !important;
-  background-size: cover !important;
+  background-size: contain !important;
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
