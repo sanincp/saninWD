@@ -49,20 +49,10 @@
   background: #475347;
 }
 .ser-bg{
-  background-image: url(/images/content/slider/leavesbg1.jpg) !important;
   background-position: center center !important;
   background-repeat:no-repeat !important;
   background-attachment: fixed !important;
   background-size: cover !important;
-}
-@media only screen and (min-width: 768px){
-  .ser-bg{
-    background-image: url(/images/content/slider/leavesbg1.jpg) !important;
-    background-position: center center !important;
-    background-repeat:no-repeat !important;
-    background-attachment: fixed !important;
-    background-size: cover !important;
-  } 
 }
 .slide-txt3{
   color: #a38972;
