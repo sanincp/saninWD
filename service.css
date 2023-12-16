@@ -72,7 +72,7 @@ ul {
 }
 
 .we-offer-area .item {
-  background: #ffffff none repeat scroll 0 0;
+  background: #f7f4f0e5;
   border-left: 2px solid #a38972;
   -moz-box-shadow: 0 0 10px #cccccc;
   -webkit-box-shadow: 0 0 10px #cccccc;
@@ -85,7 +85,7 @@ ul {
 }
 
 .we-offer-area.text-center .item {
-  background: #ffffff none repeat scroll 0 0;
+  background: #f7f4f0e5;
   border: medium none;
   padding: 67px 40px 64px;
 }

@@ -2,6 +2,9 @@ section {
     padding: 60px 0;
     min-height: 100vh;
 }
+.header-content{
+  background: #ffffff !important;
+}
 .ser-bg{
   background-position: center center !important;
   background-repeat:repeat !important;
@@ -62,7 +65,7 @@ ul {
 }
 
 .we-offer-area .our-offer-carousel .owl-dots .owl-dot span {
-  background: #ffffff none repeat scroll 0 0;
+  background: #f7f4f0e5;
   border: 2px solid;
   height: 15px;
   margin: 0 5px;
@@ -88,7 +91,7 @@ ul {
 }
 
 .we-offer-area.text-center .item {
-  background: #ffffff none repeat scroll 0 0;
+  background: #f7f4f0e5;
   border: medium none;
   padding: 67px 40px 64px;
 }
