@@ -2,6 +2,13 @@ section {
     padding: 60px 0;
     min-height: 100vh;
 }
+.ser-bg{
+  background-image: url(/images/content/slider/leavesbg1.jpg);
+  background-position: center center !important;
+  background-repeat:no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
 .header-content{
   background: #ffffff !important;
 }

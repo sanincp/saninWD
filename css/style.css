@@ -47,10 +47,11 @@
   background: #f7f4f0e5;
 }
 .ser-bg{
+  background-image: url(/images/content/slider/leavesbg1.jpg);
   background-position: center center !important;
-  background-repeat:repeat !important;
+  background-repeat:no-repeat !important;
   background-attachment: fixed !important;
-  background-size: contain !important;
+  background-size: cover !important;
 }
 .more {display: none;}
 .myBtn{

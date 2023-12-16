@@ -5,6 +5,13 @@ section {
 .header-content{
   background: #ffffff !important;
 }
+.ser-bg{
+  background-image: url(/images/content/slider/leavesbg1.jpg);
+  background-position: center center !important;
+  background-repeat:no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     outline: none;
