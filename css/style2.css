@@ -49,10 +49,11 @@
   background: #475347;
 }
 .ser-bg{
+  background-image: url(/images/content/slider/bg1.jpg);
   background-position: center center !important;
   background-repeat:repeat-y !important;
   background-attachment: fixed !important;
-  background-size: contain !important;
+  background-size: cover !important;
 }
 .icn-list i{
   direction: rtl !important;
@@ -84,6 +85,13 @@
  font-weight: 600;
 }
 @media only screen and (max-width: 600px) {
+  .ser-bg{
+    background-image: url(/images/content/slider/leavsbg2.jpg);
+    background-position: center center ;
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-size: contain;
+  }
   .department-tab-icon img {
     width: 30px;
     height: 30px;
