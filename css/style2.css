@@ -50,9 +50,9 @@
 }
 .ser-bg{
   background-position: center center !important;
-  background-repeat:repeat !important;
+  background-repeat:repeat-y !important;
   background-attachment: fixed !important;
-  background-size: contain !important;
+  background-size: cover !important;
 }
 .icn-list i{
   direction: rtl !important;
