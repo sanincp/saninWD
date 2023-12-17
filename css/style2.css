@@ -52,7 +52,7 @@
   background-position: center center !important;
   background-repeat:repeat-y !important;
   background-attachment: fixed !important;
-  background-size: cover !important;
+  background-size: contain !important;
 }
 .icn-list i{
   direction: rtl !important;
