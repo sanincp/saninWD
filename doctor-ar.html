@@ -7,7 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<title>WD Life</title>
 	<!-- Stylesheets -->
-	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
 	<link href="vendor/slick/slick.css" rel="stylesheet">
 	<link href="vendor/animate/animate.min.css" rel="stylesheet">
 	<link href="icons/style.css" rel="stylesheet">
@@ -21,6 +21,8 @@
 	<link rel="stylesheet" href="icons/fonts/font.css">
 	<!-- Google map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiFdr5Z0WRIXKUOqoRRvzRQ5SkzhkUVjk"></script>
+
+
 </head>
 
 <body class="shop-page layout-landing">
@@ -111,50 +113,64 @@
 				</div>
 				<p class="text-center max-600">نحن نقدم فريق مؤهل لتقديم استشارات النفسية والأسرية وهم من بعض أبرز المتخصصين في مجالاتهم.</p>
 				<div class="row ">
-					<div class="col-sm-6 col-md-4 category1">
-						<div class="doctor-box doctor-box-style2 text-center">
-							<div class="doctor-box-photo">
-								<img src="images/content/doctor-female-removebg-preview.png" class="img-fluid" alt="">
-							</div>
-							<div class="doctor-box-top">
-								<h5 class="doctor-box-name">د. وفاء عبد اللطيف ميرة</h5>
-								<div class="doctor-box-position">استشاري العلاج النفسي</div>
-							</div>
-							<div class="doctor-box-booking">
-								<a href="index.html#contactSection">Book a visit <i class="icon-right-arrow"></i></a>
+					<div class="slide-container swiper">
+						<div class="slide-content">
+							<div class="card-wrapper swiper-wrapper">
+							
+								<div class="card swiper-slide">
+									<div class="image-content">
+										<span class="overlay"></span>
+			
+										<div class="card-image">
+			 							<img src="images/content/female doctor avathar.png" alt="" class="card-img">                            </div>
+										</div>
+			
+									<div class="card-content">
+										<h2 class="name">د. وفاء عبد اللطيف ميرة</h2>
+										<p class="description">استشاري العلاج النفسي</p>
+			
+										<a href="index.html#contactForm" class="button">Book Now</a>
+									</div>
+								</div>
+
+								<div class="card swiper-slide">
+									<div class="image-content">
+										<span class="overlay"></span>
+			
+										<div class="card-image">
+			 							<img src="images/content/doctor male avathar.png" alt="" class="card-img">                            </div>
+										</div>
+			
+									<div class="card-content">
+										<h2 class="name">د. أحمد مصطفى القوصي</h2>
+										<p class="description">استشاري العلاج النفسي</p>
+			
+										<a href="index.html#contactForm" class="button">Book Now</a>
+									</div>
+								</div>
+
+								<div class="card swiper-slide">
+									<div class="image-content">
+										<span class="overlay"></span>
+			
+										<div class="card-image">
+			 							<img src="images/content/doctor male avathar.png" alt="" class="card-img">                            </div>
+										</div>
+			
+									<div class="card-content">
+										<h2 class="name">أ. حسام محمود المصري</h2>
+										<p class="description">أخصائي العلاج النفسي</p>
+			
+										<a href="index.html#contactForm" class="button">Book Now</a>
+									</div>
+								</div>
+
 							</div>
 						</div>
+			
+						<div class="swiper-button-next swiper-navBtn"></div>
+						<div class="swiper-button-prev swiper-navBtn"></div>
 					</div>
-					<div class="col-sm-6 col-md-4 category2">
-						<div class="doctor-box doctor-box-style2 text-center">
-							<div class="doctor-box-photo">
-								<img src="images/content/DoctorAvatar-01.png" class="img-fluid" alt="">
-							</div>
-							<div class="doctor-box-top">
-								<h5 class="doctor-box-name">د. أحمد مصطفى القوصي</h5>
-								<div class="doctor-box-position">استشاري العلاج النفسي</div>
-							</div>
-							<div class="doctor-box-booking">
-								<a href="index.html#contactSection">Book a visit <i class="icon-right-arrow"></i></a>
-							</div>
-						</div>
-					</div>
-				
-					<div class="col-sm-6 col-md-4 category1">
-						<div class="doctor-box doctor-box-style2 text-center">
-							<div class="doctor-box-photo">
-								<img src="images/content/DoctorAvatar-01.png" class="img-fluid" alt="">
-							</div>
-							<div class="doctor-box-top">
-								<h5 class="doctor-box-name">أ. حسام محمود المصري</h5>
-								<div class="doctor-box-position">أخصائي العلاج النفسي</div>
-							</div>
-							<div class="doctor-box-booking">
-								<a href="index.html#contactSection">Book a visit <i class="icon-right-arrow"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 		<!--//section specialists-->
@@ -261,6 +277,8 @@
 <script src="vendor/form-validation/jquery.form.js"></script>
 <script src="vendor/form-validation/jquery.validate.min.js"></script>
 <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
 <!-- Custom Scripts -->
 <script src="js/app.js"></script>
 <script src="color/color.js"></script>

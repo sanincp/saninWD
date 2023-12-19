@@ -143,7 +143,10 @@ ul {
 .we-offer-area .our-offer-items.less-carousel .equal-height {
   margin-bottom: 30px;
 }
-
+.we-offer-area .item:hover{
+  width: fit-content;
+  border: 5px solid #618c5c;
+}
 .we-offer-area.item-border-less .item .number {
   font-family: "Poppins",sans-serif;
   font-size: 50px;

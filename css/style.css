@@ -32,7 +32,7 @@
 -----------------------------------*/
 /*my code*/
 .icn-text-alt{
-  border: 3px solid #c0ac93;
+  border: 5px solid #5f8d5c;
   background: #f7f4f0e5;
   padding-bottom: 1.5rem;
   padding-left: 1rem;
@@ -40,7 +40,7 @@
   padding-top: 1rem;
 }
 .service-card-style2{
-  background: #f7f4f0e5;
+  background: #d8c9b6bd;
 }
 .department-item{
   padding: 1.5rem;
@@ -10214,10 +10214,12 @@ ul.services-list li:last-child {
 }
 .icn-text-alt .icn-text-alt-title {
   margin-bottom: 0;
+  color: #a38972;
   font-size: 20px;
   line-height: 34px;
   transition: 0.25s;
 }
+
 @media (max-width: 1023px) {
   .icn-text-alt .icn-text-alt-title {
     font-size: 17px;
@@ -14792,6 +14794,9 @@ body.noScroll {
 .service-card-photo + .service-card-name {
   margin-top: 30px;
 }
+.service-card-name{
+  color: #5f8d5c;
+}
 .service-card-name,
 .service-card-name a {
   font-size: 26px;
@@ -15115,7 +15120,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 }
 .department-tab.active,
 .department-tab:hover {
-  background-color: #a38972;
+  background-color: #5f8d5c;
 }
 .department-tab.active .department-tab-icon,
 .department-tab:hover .department-tab-icon {
@@ -15209,7 +15214,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   justify-content: center;
   flex-direction: column;
   padding: 30px 10px 30px;
-  background-color: #a38972;
+  background-color: #5f8d5c;
 }
 @media (max-width: 575px) {
   .department-carousel .department-tab {
@@ -21981,4 +21986,133 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   .layout-landing .js-icn-text-alt-carousel .slick-dots {
     margin: 15px 0 25px;
   }
+}
+/*doctor card*/
+.slide-container{
+  max-width: 400px;
+  width: 100%;
+  padding: 40px 40px ;
+}
+.slide-content{
+  margin: 0 5rem !important;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color:  whitesmoke;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #5b8e56;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #5b8e56;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #5b8e56;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  text-decoration: none !important;
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #5b8e56;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #b89780;
+  color: white;
+  text-decoration: none !important;
+}
+
+.swiper-navBtn{
+  color: #5b8e56;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #5b8e56;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 38px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #5b8e56;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 30px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+.swiper-navBtn{
+  color: #618c5c !important;
 }

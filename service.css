@@ -5,6 +5,10 @@ section {
 .header-content{
   background: #ffffff !important;
 }
+.we-offer-area .item:hover{
+  width: fit-content;
+  border: 5px solid #618c5c !important;
+}
 .ser-bg{
   background-position: center center !important;
   background-repeat:repeat !important;

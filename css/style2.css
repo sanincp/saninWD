@@ -35,7 +35,7 @@
   margin-left: 1rem;
 }
 .icn-text-alt{
-  border: 3px solid #c0ac93;
+  border: 5px solid #84aa80;
   background: #f7f4f0e5;
   padding-bottom: 1.5rem;
   padding-left: 1rem;
@@ -43,13 +43,12 @@
   padding-top: 1rem;
 }
 .service-card-style2{
-  background: #f7f4f0e5;
+  background: #d8c9b6bd;
 }
 .doctor-box-booking{
   background: #475347;
 }
 .ser-bg{
-  background-image: url(/images/content/slider/bg1.jpg);
   background-position: center center !important;
   background-repeat:repeat-y !important;
   background-attachment: fixed !important;
@@ -10210,6 +10209,7 @@ ul.services-list li:last-child {
   box-shadow: 0 0 0 10px rgba(92, 104, 149, 0.2);
 }
 .icn-text-alt .icn-text-alt-title {
+  color: #5f8d5c !important;
     direction: rtl;
     text-align: right;
   margin-bottom: 0;
@@ -14807,6 +14807,9 @@ body.noScroll {
   opacity: 0.2;
   transition: opacity 0.5s ease 0.2s;
 }
+.service-card-name{
+  color: #5f8d5c !important;
+}
 .service-card-photo + .service-card-name {
   margin-top: 30px;
 }
@@ -14937,7 +14940,7 @@ body.noScroll {
   }
 }
 .service-card-style2:hover {
-  border: 5px solid #475347;
+  border: 5px solid #948c81;
 }
 
 .services-tab-wrap {
@@ -15152,7 +15155,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 }
 .department-tab.active,
 .department-tab:hover {
-  background-color: #a38972;
+  background-color: #8aac87;
 }
 .department-tab.active .department-tab-icon,
 .department-tab:hover .department-tab-icon {
@@ -15257,7 +15260,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   justify-content: center;
   flex-direction: column;
   padding: 30px 10px 30px;
-  background-color: #a38972;
+  background-color: #8aac87;
 }
 @media (max-width: 575px) {
   .department-carousel .department-tab {
@@ -22038,5 +22041,131 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 @media (max-width: 767px) {
   .layout-landing .js-icn-text-alt-carousel .slick-dots {
     margin: 15px 0 25px;
+  }
+}
+/*doctor card*/
+.slide-container{
+  max-width: 500px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color:  whitesmoke;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #5b8e56;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #5b8e56;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #5b8e56;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  text-decoration: none !important;
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #5b8e56;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #b89780;
+  color: white;
+  text-decoration: none !important;
+}
+
+.swiper-navBtn{
+  color: #5b8e56;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #5b8e56;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 38px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #5b8e56;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
   }
 }
