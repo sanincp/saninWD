@@ -62,6 +62,10 @@
     font-style: normal;
     font-display: swap;
 }
+li::marker{
+  color: #5f8e5a !important;
+  font-size: 1.1rem !important;
+}
 .eng-btn{
   display: none;
 }
@@ -22042,7 +22046,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 /*doctor card*/
 .slide-container{
-  max-width: 500px;
+  max-width: 350px;
   width: 100%;
   padding: 40px 0;
 }
@@ -22151,7 +22155,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   left: 0;
 }
 .swiper-pagination-bullet{
-  background-color: #6E93f7;
+  background-color: #a38972;
   opacity: 1;
 }
 .swiper-pagination-bullet-active{

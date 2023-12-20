@@ -68,7 +68,7 @@
     background-size: contain !important;
   }
   .department-tab-icon img {
-    width: 30px;
+    width: 30px !important;
     height: 30px;
   }
   .icn-text-alt-icn img{
@@ -15147,9 +15147,6 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 88px;
-  height: 88px;
-  font-size: 40px;
   border-radius: 50%;
   background-color: #ffffff;
   color: #a5a7ac;
@@ -22000,12 +21997,12 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 /*doctor card*/
 .slide-container{
-  max-width: 400px;
+  max-width: 350px;
   width: 100%;
-  padding: 40px 40px ;
+  padding: 40px 0;
 }
 .slide-content{
-  margin: 0 5rem !important;
+  margin: 0 40px;
   overflow: hidden;
   border-radius: 25px;
 }
@@ -22109,7 +22106,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   left: 0;
 }
 .swiper-pagination-bullet{
-  background-color: #6E93f7;
+  background-color: #a38972;
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
@@ -22118,12 +22115,9 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 
 @media screen and (max-width: 768px) {
   .slide-content{
-    margin: 0 30px;
+    margin: 0 10px;
   }
   .swiper-navBtn{
     display: none;
   }
-}
-.swiper-navBtn{
-  color: #618c5c !important;
 }
