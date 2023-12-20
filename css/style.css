@@ -46,12 +46,7 @@
   padding: 1.5rem;
   background: #f7f4f0e5;
 }
-.ser-bg{
-  background-position: center center !important;
-  background-repeat:repeat !important;
-  background-attachment: fixed !important;
-  background-size: contain !important;
-}
+
 .more {display: none;}
 .myBtn{
  background: none;
@@ -60,7 +55,18 @@
  font-weight: 600;
  font-family: "Poppins", serif;
 }
+.ser-bg{
+  background-position: center ;
+  background-repeat:no-repeat !important;
+  background-size: cover!important;
+  background-attachment: fixed;
+}
 @media only screen and (max-width: 600px) {
+  .ser-bg{
+    background-position: center center ;
+    background-repeat:repeat-y !important;
+    background-size: contain !important;
+  }
   .department-tab-icon img {
     width: 30px;
     height: 30px;
@@ -159,7 +165,7 @@ body {
   line-height: 1.75;
   color: #787878;
   text-align: left;
-  background: #f7f4f0;
+  background: #f1ede6d3;
 }
 
 [tabindex="-1"]:focus {
@@ -9207,7 +9213,7 @@ ul.numbered-list-xl li:before {
   width: 83px;
   padding-left: 2px;
   border-radius: 50%;
-  color: #a38972;
+  color: #5f8d5c;
   left: 0;
   top: -6px;
   background-color: #fff;
@@ -12441,9 +12447,11 @@ body.noScroll {
   width: 100%;
   position: relative;
   z-index: 1;
+ 
 }
 
 .vert {
+
   display: table-cell;
   vertical-align: middle;
 }
@@ -14153,6 +14161,7 @@ body.noScroll {
   background-repeat: no-repeat;
 }
 #mainSlider .slide-content {
+  margin-left: -1rem !important;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -14184,6 +14193,8 @@ body.noScroll {
   margin-top: 25px;
 }
 #mainSlider .slide-txt1 {
+  text-align: center !important;
+  vertical-align: middle !important;
   font-size: 54px;
   line-height: 1.26em;
   font-weight: 400;
@@ -18731,7 +18742,7 @@ body:not(.touch) .filters-by-category ul a:hover {
   border: 0;
   outline: none;
   border-radius: 50%;
-  background: #e1e5e9;
+  background: #a38972;
   cursor: pointer;
 }
 @media (max-width: 575px) {
@@ -18747,7 +18758,7 @@ body:not(.touch) .filters-by-category ul a:hover {
 
 .slick-dots li.slick-active button,
 .slick-dots li.slick-active button:hover {
-  background-color: #a38972;
+  background-color: #5f8d5c;
 }
 
 .slick-dots li button:hover,
@@ -21829,7 +21840,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 .layout-landing #mainSlider .slick-dots li button {
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #a38972;
 }
 .layout-landing #mainSlider .slick-dots li.slick-active button {
   background-color: #fff;
