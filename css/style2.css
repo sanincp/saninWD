@@ -48,12 +48,6 @@
 .doctor-box-booking{
   background: #475347;
 }
-.ser-bg{
-  background-position: center center !important;
-  background-repeat:repeat-y !important;
-  background-attachment: fixed !important;
-  background-size: cover !important;
-}
 .icn-list i{
   direction: rtl !important;
   float: right !important;
@@ -83,12 +77,16 @@
  color: #a38972;
  font-weight: 600;
 }
+#servicesSection{
+  background-position: center center ;
+  background-repeat:repeat-y !important;
+  background-size: contain !important;
+}
 @media only screen and (max-width: 600px) {
-  .ser-bg{
+  #servicesSection{
     background-position: center center ;
-    background-repeat:repeat;
-    background-attachment: fixed;
-    background-size: contain;
+    background-repeat:repeat-y !important;
+    background-size: contain !important;
   }
   .department-tab-icon img {
     width: 30px;
