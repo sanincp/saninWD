@@ -145,7 +145,7 @@ ul {
 }
 .we-offer-area .item:hover{
   width: fit-content;
-  border: 5px solid #618c5c;
+  border: 5px solid #455947;
 }
 .we-offer-area.item-border-less .item .number {
   font-family: "Poppins",sans-serif;

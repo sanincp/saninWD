@@ -35,7 +35,7 @@
   margin-left: 1rem;
 }
 .icn-text-alt{
-  border: 5px solid #84aa80;
+  border: 5px solid #455947;
   background: #f7f4f0e5;
   padding-bottom: 1.5rem;
   padding-left: 1rem;
@@ -9080,7 +9080,6 @@ body:not(.touch) .btn-white:hover [class*="icon"],
 ul.list-unstyled li:not(:last-child) {
   margin-bottom: 8px;
 }
-
 ul.numbered-list {
   margin-left: 0;
   margin-right: 0;
@@ -9189,7 +9188,7 @@ ul.numbered-list-xl {
   margin-right: 0;
   padding: 0;
   counter-reset: li;
-  list-style-type: circle;
+  list-style-type: none !important;
   font-size: 16px;
   line-height: 27px;
 }
@@ -10210,7 +10209,7 @@ ul.services-list li:last-child {
   box-shadow: 0 0 0 10px rgba(92, 104, 149, 0.2);
 }
 .icn-text-alt .icn-text-alt-title {
-  color: #5f8d5c !important;
+  color: #455947 !important;
     direction: rtl;
     text-align: right;
   margin-bottom: 0;
@@ -14809,7 +14808,7 @@ body.noScroll {
   transition: opacity 0.5s ease 0.2s;
 }
 .service-card-name{
-  color: #5f8d5c !important;
+  color: #455947 !important;
 }
 .service-card-photo + .service-card-name {
   margin-top: 30px;
@@ -15156,7 +15155,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 }
 .department-tab.active,
 .department-tab:hover {
-  background-color: #8aac87;
+  background-color: #455947;
 }
 .department-tab.active .department-tab-icon,
 .department-tab:hover .department-tab-icon {
@@ -18800,7 +18799,7 @@ body:not(.touch) .filters-by-category ul a:hover {
 
 .slick-dots li.slick-active button,
 .slick-dots li.slick-active button:hover {
-  background-color: #5f8d5c;
+  background-color: #455947;
 }
 
 .slick-dots li button:hover,
@@ -22077,7 +22076,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #5b8e56;
+  background-color: #455947;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -22088,7 +22087,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #5b8e56;
+  background-color: #455947;
 }
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -22107,7 +22106,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #5b8e56;
+  border: 4px solid #455947;
 }
 .name{
   font-size: 18px;
@@ -22125,7 +22124,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   font-size: 16px;
   color: #FFF;
   padding: 8px 16px;
-  background-color: #5b8e56;
+  background-color: #455947;
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
@@ -22138,11 +22137,11 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 
 .swiper-navBtn{
-  color: #5b8e56;
+  color: #455947;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-  color: #5b8e56;
+  color: #455947;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
@@ -22159,7 +22158,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
-  background-color: #5b8e56;
+  background-color: #455947;
 }
 
 @media screen and (max-width: 768px) {
@@ -22168,5 +22167,11 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   }
   .swiper-navBtn{
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cnt-img{
+    margin-top: 20% !important;
+    margin-left: -10% !important;
   }
 }

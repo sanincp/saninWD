@@ -32,7 +32,7 @@
 -----------------------------------*/
 /*my code*/
 .icn-text-alt{
-  border: 5px solid #5f8d5c;
+  border: 5px solid #455947;
   background: #f7f4f0e5;
   padding-bottom: 1.5rem;
   padding-left: 1rem;
@@ -9163,7 +9163,28 @@ ul.numbered-list-lg li:not(:last-child) {
     margin-bottom: 20px;
   }
 }
-
+ul.numbered-list-xl li:before {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 1em;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  content: attr(data-num);
+  counter-increment: li;
+  height: 83px;
+  width: 83px;
+  padding-left: 2px;
+  border-radius: 50%;
+  color: #455947;
+  left: 0;
+  top: -6px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(101, 81, 46, 0.1);
+  transition: 0.2s;
+}
 ul.numbered-list-xl {
   margin-left: 0;
   margin-right: 0;
@@ -9197,28 +9218,6 @@ ul.numbered-list-xl li {
   ul.numbered-list-xl li {
     padding: 0 0 0 67px;
   }
-}
-ul.numbered-list-xl li:before {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-  line-height: 1em;
-  font-weight: 700;
-  font-family: "Poppins", serif;
-  content: attr(data-num);
-  counter-increment: li;
-  height: 83px;
-  width: 83px;
-  padding-left: 2px;
-  border-radius: 50%;
-  color: #5f8d5c;
-  left: 0;
-  top: -6px;
-  background-color: #fff;
-  box-shadow: 0 10px 20px rgba(101, 81, 46, 0.1);
-  transition: 0.2s;
 }
 @media (max-width: 1023px) {
   ul.numbered-list-xl li:before {
@@ -14806,7 +14805,7 @@ body.noScroll {
   margin-top: 30px;
 }
 .service-card-name{
-  color: #5f8d5c;
+  color: #455947;
 }
 .service-card-name,
 .service-card-name a {
@@ -15131,7 +15130,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 }
 .department-tab.active,
 .department-tab:hover {
-  background-color: #5f8d5c;
+  background-color: #455947;
 }
 .department-tab.active .department-tab-icon,
 .department-tab:hover .department-tab-icon {
@@ -15222,7 +15221,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   justify-content: center;
   flex-direction: column;
   padding: 30px 10px 30px;
-  background-color: #5f8d5c;
+  background-color: #455947;
 }
 @media (max-width: 575px) {
   .department-carousel .department-tab {
@@ -18755,7 +18754,7 @@ body:not(.touch) .filters-by-category ul a:hover {
 
 .slick-dots li.slick-active button,
 .slick-dots li.slick-active button:hover {
-  background-color: #5f8d5c;
+  background-color: #455947;
 }
 
 .slick-dots li button:hover,
@@ -22028,7 +22027,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #5b8e56;
+  background-color: #455947;
   border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -22039,7 +22038,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #5b8e56;
+  background-color: #455947;
 }
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -22058,7 +22057,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #5b8e56;
+  border: 4px solid #455947;
 }
 .name{
   font-size: 18px;
@@ -22076,7 +22075,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   font-size: 16px;
   color: #FFF;
   padding: 8px 16px;
-  background-color: #5b8e56;
+  background-color: #455947;
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
@@ -22089,11 +22088,11 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 
 .swiper-navBtn{
-  color: #5b8e56;
+  color: #455947;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
-  color: #5b8e56;
+  color: #455947;
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after{
@@ -22110,7 +22109,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
-  background-color: #5b8e56;
+  background-color: #455947;
 }
 
 @media screen and (max-width: 768px) {
@@ -22119,5 +22118,11 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
   }
   .swiper-navBtn{
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cnt-img{
+    margin-top: 20% !important;
+    margin-left: -10% !important;
   }
 }
