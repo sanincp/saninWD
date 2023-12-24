@@ -15155,7 +15155,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 }
 .department-tab.active,
 .department-tab:hover {
-  background-color: #455947;
+  background-color: #455947 !important;
 }
 .department-tab.active .department-tab-icon,
 .department-tab:hover .department-tab-icon {
@@ -15260,7 +15260,7 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   justify-content: center;
   flex-direction: column;
   padding: 30px 10px 30px;
-  background-color: #8aac87;
+  background-color: #455947;
 }
 @media (max-width: 575px) {
   .department-carousel .department-tab {
