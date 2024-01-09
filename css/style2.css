@@ -31,6 +31,18 @@
 
 -----------------------------------*/
 /*my code*/
+.numbered-list-xl img{
+width: 35px !important;
+height: 35px !important;
+ float: right !important;
+ margin-top: -5px !important;
+ margin-left: 10px !important;
+}
+.ul-ethics{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
 .footer-post-text{
   margin-left: 1rem;
 }
@@ -81,6 +93,12 @@ li::marker{
  color: #a38972;
  font-weight: 600;
 }
+.ethics-bg{
+  background-position: center ;
+  background-repeat:no-repeat !important;
+  background-size: cover!important;
+  background-attachment: fixed;
+}
 .ser-bg{
   background-position: center ;
   background-repeat:no-repeat !important;
@@ -88,6 +106,10 @@ li::marker{
   background-attachment: fixed;
 }
 @media only screen and (max-width: 600px) {
+  .mySlides li{
+    width: 50% !important;
+    margin-left: -30% !important;
+  }
   .ser-bg{
     background-position: center center ;
     background-repeat:repeat-y !important;
@@ -9208,6 +9230,10 @@ ul.numbered-list-xl h5 {
     padding-top: 0;
   }
 }
+.numbered-list-xl li p{
+  text-align-last: center !important; 
+  color: #455947 !important;
+}
 ul.numbered-list-xl li {
   position: relative;
   padding: 0 0 0 110px;
@@ -14110,7 +14136,7 @@ body.noScroll {
 
 #mainSlider,
 #mainSlider .img--holder {
-  height: 762px;
+  height: 600px;
 }
 @media (max-width: 1229px) {
   #mainSlider,
@@ -15241,10 +15267,17 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
   opacity: 1;
   left: -7px;
 }
+.department-item h3{
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
 .department-item p{
   color: black !important;
   margin-bottom: 1rem;
+  padding: 3px !important;
   margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 .service-card-style2 p {
   color: black !important;

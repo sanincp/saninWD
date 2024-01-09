@@ -9163,6 +9163,11 @@ ul.numbered-list-lg li:not(:last-child) {
     margin-bottom: 20px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .numbered-list-xl li{
+    width: 130% !important;
+  }
+}
 ul.numbered-list-xl li:before {
   position: absolute;
   display: flex;
@@ -22125,4 +22130,8 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
     margin-top: 20% !important;
     margin-left: -10% !important;
   }
+}
+ul.num-list-2 li:before{
+  list-style: none !important;
+  display: none !important;
 }

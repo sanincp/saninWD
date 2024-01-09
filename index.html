@@ -113,7 +113,7 @@
 			<div class="main-slider mb-0 arrows-white arrows-bottom" id="mainSlider" data-slick='{"arrows": false, "dots": true}'>
 
 				<div class="slide">
-					<div class="img--holder" data-bg="images/content/slider/slide-01.jpg"></div>
+					<div  class="img--holder"  data-bg="images/content/slider/slide-01.jpg"></div>
 					<div class="slide-content center">
 						<div class="vert-wrap container">
 							<div class="vert">
@@ -144,6 +144,20 @@
 					</div>
 				</div>
 			
+				<div class="slide">
+					<div  class="img--holder"  data-bg="images/content/slider/slide-03.jpg"></div>
+					<div class="slide-content center">
+						<div class="vert-wrap container">
+							<div class="vert">
+								<div class="container">
+									<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s" style="color: white !important;">  مع ودلايف اكتشف شخصيتك</b></div>
+									<div class="slide-btn"><a href="#servicesSection" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>دوراتنا</span><i class="icon-right-arrow"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -229,7 +243,12 @@
 		</div>
 	</div>
 	<!--//section-->
-	<center> <div class="slide-btn" style="margin-top: 2rem;"><a href="doctor-ar.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>التقي بفريقنا</span><i class="icon-right-arrow"></i></a></div></center>
+	<div class="title-wrap text-center ser-bg" style="background-image: url(images/content/slider/slide-01.jpg); padding-top: 2rem !important; padding-bottom: 2rem !important; margin-bottom: -7rem !important;">
+		<div class="h-sub theme-color">تعرف على فريقنا</div>
+		<h1>فريقنا المتخصص</h1>
+		<div class="h-decor"></div>
+		<center> <div class="slide-btn" style="margin-top: 2rem;"><a href="doctor-ar.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>التقي بفريقنا</span><i class="icon-right-arrow"></i></a></div></center>
+	</div>
 	<!--section services-->
 	<div class="ser-bg" style="background-image: url(images/content/slider/bg1.jpg) !important;">
 	<div class="section" id="servicesSection" >
@@ -520,61 +539,193 @@
 </div>
 	<!--//section-->
 	<!--section-->
-	<div class="section" id="Ethics">
-		<div class="container-fluid px-0 text-image-block">
-			<div class="row no-gutters">
-				<div class="col-md-6 image-col"><img src="images/content/why-choose-us.png" style="width: 904px !important; height: 100%x !important;" alt=""></div>
-				<div class="col-md-6 text-col">
-					<div class="title-wrap">
-						<div class="h-sub theme-color">Life <img src="images/content/wd text.png" style="height: 15px; width: 25px;" alt=""></div>
-						<h2 class="h1"><span>ميثاق الأخلاقي</span></h2>
-					</div>
-					<div class="mt-2 mt-lg-4"></div>
-					<ul class="numbered-list-xl" style="margin-right: 2rem;">
-						<li data-num='01.'>
-							<img src="images/content/leaves icon.png"  alt="">	
-							<p >
-								نلتزم بأنظمة المملكة العربية السعودية، ونلتزم أن لا تتنافي برامجنا مع أي شيء يساهم في المساس بالقيادة السياسية للملكة.
-						  </p>
-						</li>
-						<li data-num='02.'>
-							<img src="images/content/leaves icon.png"  alt="">	
-							<p>
-								 توقيع التعاقد السلوكي: يتم عمل تعاقد مع كافة العملاء قبل بدء رحلتهم معنا نقر فيها بما يلي:
-						  </p>
-						</li>
-						<li data-num='2.1'>
-							<img src="images/content/leaves icon.png"  alt="">	
-							<p>السرية والخصوصية.</p>
-						</li>
-						<li data-num='2.2'>
-							<img src="images/content/leaves icon.png"  alt="">	
-						<p>حقوق وواجبات العميل.
-						</p>
-						</li>
-						<li data-num='2.3'>
-							<img src="images/content/leaves icon.png"  alt="">	
-							<p>احترام حريته دون إجباره على ما لا يتناسب مع حالت.
-							</p>
-						</li>
-						<li data-num='2.4'>
-							<img src="images/content/leaves icon.png"  alt="">	
-							 <p>عدم الحكم عليه أو الإساءة له أو توجيه اللوم إليه مهما كانت مشكلته.</p>
-						</li>
-						<li data-num='2.5'>
-							<img src="images/content/leaves icon.png"  alt="">	
-							<p>حق العميل في برامج مقدمة على أساس علمي رصين وليست بناءً على خرافات أو علوم زائفة.</p>
-						</li>
-						<li data-num='2.6'>
-							<img src="images/content/leaves icon.png"  alt="">	
-							<p> حق العميل في الحصول على فترته كامله، وفي حال نقصت لظروف خارجة عن الإدارة يتم تعويض العميل بوقت إضافي.</p>
-						</li>
-					</ul>
-				</div>
+	<style>
+		/* Slideshow container */
+		.slideshow-container {
+		  height:60vh !important;
+		  position: relative;
+		}
+		
+		/* Slides */
+		.mySlides {
+		  display: none;
+		  padding: 80px;
+		  text-align: center;
+		}
+		
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  margin-top: -30px;
+		  padding: 16px;
+		  color: #888;
+		  font-weight: bold;
+		  font-size: 20px;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		}
+		
+		/* Position the "next button" to the right */
+		.next {
+		  position: absolute;
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+		
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		  background-color: rgba(0,0,0,0.8);
+		  color: white;
+		}
+		
+		/* The dot/bullet/indicator container */
+		.dot-container {
+			text-align: center;
+			padding: 20px;
+		}
+		
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+		
+		/* Add a background color to the active dot/circle */
+		.active, .dot:hover {
+		  background-color: #717171;
+		}
+		
+		.numbered-list-xl li{
+			width: 100%;
+		}
+		
+		/* Add a blue color to the author */
+		.author {color: cornflowerblue;}
+		</style>
+		</head>
+		<body>
+		
+		<div class="slideshow-container ser-bg" id="Ethics" style="background-image: url(images/content/slider/slide-01.jpg); margin-top: -1rem; ">
+		
+		<div class="mySlides">
+			<div class="title-wrap" style="text-align: center !important;">
+				<div class="h-sub theme-color">Life <img src="images/content/wd text.png" style="height: 15px; width: 25px;" alt=""></div>
+				<h2 class="h1"><span>ميثاق الأخلاقي</span></h2>
 			</div>
+			<ul class="numbered-list-xl" style="width: 100%; text-align: center;">
+				<li data-num='01.' >
+					<img src="images/content/leaves icon.png"  alt="">	
+					<p style="text-align-last: center !important;">
+						نلتزم بأنظمة المملكة العربية السعودية، ونلتزم أن لا تتنافي برامجنا مع أي شيء يساهم في المساس بالقيادة السياسية للملكة.
+				  </p>
+				</li>
+				<li data-num='02.'>
+					<img src="images/content/leaves icon.png"  alt="">	
+					<p>
+						 توقيع التعاقد السلوكي: يتم عمل تعاقد مع كافة العملاء قبل بدء رحلتهم معنا نقر فيها بما يلي:
+				  </p>
+				</li>
+				<li data-num='2.1'>
+					<img src="images/content/leaves icon.png"  alt="">	
+					<p>السرية والخصوصية.</p>
+				</li>
+			</ul>
 		</div>
-	</div>
-	<!--//section-->
+		
+		<div class="mySlides">
+			<div class="title-wrap" style="text-align: center !important;">
+				<div class="h-sub theme-color">Life <img src="images/content/wd text.png" style="height: 15px; width: 25px;" alt=""></div>
+				<h2 class="h1"><span>ميثاق الأخلاقي</span></h2>
+			</div>
+			<ul class="numbered-list-xl" style="width: 100%; text-align: center;">
+				<li data-num='2.2'>
+					<img src="images/content/leaves icon.png"  alt="">	
+				<p>حقوق وواجبات العميل.
+				</p>
+				</li>
+				<li data-num='2.3'>
+					<img src="images/content/leaves icon.png"  alt="">	
+					<p>احترام حريته دون إجباره على ما لا يتناسب مع حالت.
+					</p>
+				</li>
+				<li data-num='2.4'>
+					<img src="images/content/leaves icon.png"  alt="">	
+					 <p>عدم الحكم عليه أو الإساءة له أو توجيه اللوم إليه مهما كانت مشكلته.</p>
+				</li>
+			</ul>
+		</div>
+
+		<div class="mySlides">
+			<div class="title-wrap" style="text-align: center !important;">
+				<div class="h-sub theme-color">Life <img src="images/content/wd text.png" style="height: 15px; width: 25px;" alt=""></div>
+				<h2 class="h1"><span>ميثاق الأخلاقي</span></h2>
+			</div>
+			<ul class="numbered-list-xl" style="width: 100%; text-align: center;">
+				<li data-num='2.4'>
+					<img src="images/content/leaves icon.png"  alt="">	
+					 <p>عدم الحكم عليه أو الإساءة له أو توجيه اللوم إليه مهما كانت مشكلته.</p>
+				</li>
+				<li data-num='2.5'>
+					<img src="images/content/leaves icon.png"  alt="">	
+					<p>حق العميل في برامج مقدمة على أساس علمي رصين وليست بناءً على خرافات أو علوم زائفة.</p>
+				</li>
+				<li data-num='2.6'>
+					
+					
+					<p> حق العميل في الحصول على فترته كامله، وفي حال نقصت لظروف خارجة عن الإدارة يتم تعويض العميل بوقت إضافي.</p>
+				</li>
+			</ul>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+		
+		</div>
+		
+		<div class="dot-container">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+		
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+		
 	
 	
 

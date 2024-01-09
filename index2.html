@@ -149,6 +149,20 @@
 					</div>
 				</div>
 			
+				<div class="slide" style="text-align:justify !important;">
+					<div class="img--holder" data-bg="images/content/slider/slide-03.jpg"></div>
+					<div class="slide-content center">
+						<div class="vert-wrap container">
+							<div class="vert">
+								<div class="container">
+									<div class="slide-txt1" data-animation="fadeInDown" data-animation-delay="1s" style="color: #b6957c !important;">With WD Life, discover your personality</div>
+									<div class="slide-btn"><a href="#contactSection" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>our courses</span><i class="icon-right-arrow"></i></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -227,7 +241,12 @@
 		</div>
 	</div>
 	<!--//section-->
-	<center> <div class="slide-btn" style="margin-top: 2rem;"><a href="doctor-en.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Meet Our Team</span><i class="icon-right-arrow"></i></a></div></center>
+	<div class="title-wrap text-center ser-bg" style=" padding-bottom: 2rem !important; padding-top: 2rem !important; margin-bottom: -7rem; background-image: url(images/content/slider/slide-01.jpg);">
+		<div class="h-sub theme-color">Meet the Team</div>
+		<h1>Our Specialists</h1>
+		<div class="h-decor"></div>
+		<center> <div class="slide-btn" style="margin-top: 2rem;"><a href="doctor-en.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Meet Our Team</span><i class="icon-right-arrow"></i></a></div></center>
+	</div>
 	<!--section services-->
 	<div class="section ser-bg" id="servicesSection" style="background-image: url(images/content/slider/bg1.jpg) !important;">
 		<div class="container">
@@ -562,72 +581,223 @@
 	</div>
 	<!--//section-->
 	<!--section-->
-	<div class="section" id="Ethics">
-		<div class="container-fluid px-0 text-image-block">
-			<div class="row no-gutters">
-				<div class="col-md-6 image-col"><img src="images/content/why-choose-us.png" style="width: 904px !important; height: 100% !important;" alt=""></div>
-				<div class="col-md-6 text-col">
-					<div class="title-wrap">
-						<div class="h-sub theme-color" style="font-size: 20px !important;"><img src="images/content/wd text.png" style="height: 20px; width: 30px;" alt=""> Life</div>
-						<h2 class="h1" ><span>Code Of Ethics</span></h2>
-					</div>
-					<div class="mt-2 mt-lg-4"></div>
-					<ul class="numbered-list-xl">
-						<li data-num='01.'>
-							<p>
-								We adhere to the regulations of the Kingdom of Saudi Arabia, and we are
-								<span class="dots">...</span>
-								<span class="more">committed to ensuring that our programs do not conflict with anything that contributes to undermining the political leadership of the crown.
-									</span>
-								<button class="read myBtn">Read More</button>
-						  </p>
-						</li>
-						<li data-num='02.'>
-							<p>
-								Signing the behavioral contract: A contract would be set forward and agreed 
-								<span class="dots">...</span>
-								<span class="more">upon with all clients before starting their journey with us, in which the following would be acknowledged:
-									</span>
-								<button class="read myBtn">Read More</button>
-						  </p>
-						</li>
-						<li data-num='2.1'>
-							<br>
-							Confidentiality and privacy.
-						</li>
-						<li data-num='2.2'>
-							<br>
-							The rights and duties of the client.
-						</li>
-						<li data-num='2.3'>
-							Respecting the client’s freedom without forcing him to do anything that does not suit his condition.
-						</li>
-						<li data-num='2.4'>
-							Will not judge, nor abuse, nor blame the client no matter what the problem might be.
-						</li>
-						<li data-num='2.5'>
-							<p>
-								The customer’s right to programs provided based on a scientific research 
-								<span class="dots">...</span>
-								<span class="more">and not based on other falsities or pseudoscience.
-									</span>
-								<button class="read myBtn">Read More</button>
-						  </p>
-						</li>
-						<li data-num='2.6'>
-							<p>
-								The client has the right to obtain his full period, and in the case of shortened 
-								<span class="dots">...</span>
-								<span class="more">period due to circumstances not under the client’s control, the client would be compensated with additional time.
-									</span>
-								<button class="read myBtn">Read More</button>
-						  </p>
-						</li>
-					</ul>
-				</div>
+	<!--section-->
+	<style>
+		/* Slideshow container */
+		.slideshow-container {
+		  height:65vh !important;
+		  color: black !important;
+		  position: relative;
+		}
+		
+		/* Slides */
+		.mySlides {
+		  display: none;
+		  text-align: center;
+		  display: flex;
+  		  justify-content: center;
+		}
+		
+		.mySlides li{
+			text-align: center;
+		  display: flex;
+  		  justify-content: center;
+		}
+		.mySlides ul{
+			width: 70% !important;
+			margin-left: 10% !important;
+		}
+		@media only screen and (max-width: 600px) {
+		  .mySlides ul{
+		    width: 60% !important;
+		    margin-left: 0% !important;
+		  }
+		  .slideshow-container {
+			height: 50vh !important;
+		  }
+		}
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  margin-top: -30px;
+		  padding: 16px;
+		  color: black !important;
+		  font-weight: bold;
+		  font-size: 40px;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		}
+		
+		/* Position the "next button" to the right */
+		.next {
+		  position: absolute;
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+		
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		  color: white !important;
+		}
+		
+		/* The dot/bullet/indicator container */
+		.dot-container {
+			text-align: center;
+			padding: 20px;
+		}
+		
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+		
+		/* Add a background color to the active dot/circle */
+		.active, .dot:hover {
+		  background-color: #717171;
+		}
+		
+		.numbered-list-xl li{
+			width: 100%;
+		}
+		
+		/* Add a blue color to the author */
+		.author {color: cornflowerblue;}
+		</style>
+		</head>
+		<body>
+		
+		<div class="slideshow-container ser-bg" id="Ethics" style="background-image: url(images/content/slider/slide-01.jpg); margin-top: -1.3rem; padding-top: 1rem !important;">
+		
+		<div class="mySlides">
+			<div class="title-wrap">
+				<div class="h-sub theme-color" style="font-size: 20px !important;"><img src="images/content/wd text.png" style="height: 20px; width: 30px;" alt=""> Life</div>
+				<h2 class="h1" ><span>Code Of Ethics</span></h2>
 			</div>
+			<ul class="numbered-list-xl num-list-2">
+				<li >
+					<p>
+						<img src="images/content/leaves icon.png"  alt="">	
+						We adhere to the regulations of the Kingdom of Saudi Arabia, and we are
+						committed to ensuring that our programs do not conflict with anything that contributes to undermining the political leadership of the crown.
+				  </p>
+				</li>
+				<li>
+					<p>
+						<img src="images/content/leaves icon.png"  alt="">	
+						Signing the behavioral contract: A contract would be set forward and agreed 
+						upon with all clients before starting their journey with us, in which the following would be acknowledged:
+				  </p>
+				</li>
+				<li>
+					<br>
+					<img src="images/content/leaves icon.png"  alt="">	
+							Confidentiality and privacy.
+				</li>
+			</ul>
 		</div>
-	</div>
+		
+		<div class="mySlides">
+			<div class="title-wrap">
+				<div class="h-sub theme-color" style="font-size: 20px !important;"><img src="images/content/wd text.png" style="height: 20px; width: 30px;" alt=""> Life</div>
+				<h2 class="h1" ><span>Code Of Ethics</span></h2>
+			</div>
+			<ul class="numbered-list-xl num-list-2" style="width: 100%; text-align: center;">
+				<li>
+					<br>
+					<img src="images/content/leaves icon.png"  alt="">	
+					The rights and duties of the client.
+				</li>
+				<li>
+					<img src="images/content/leaves icon.png"  alt="">	
+					Respecting the client’s freedom without forcing him to do anything that does not suit his condition.
+				</li>
+				<li>
+					<img src="images/content/leaves icon.png"  alt="">	
+					Will not judge, nor abuse, nor blame the client no matter what the problem might be.
+				</li>
+			</ul>
+		</div>
+
+		<div class="mySlides">
+			<div class="title-wrap">
+				<div class="h-sub theme-color" style="font-size: 20px !important;"><img src="images/content/wd text.png" style="height: 20px; width: 30px;" alt=""> Life</div>
+				<h2 class="h1" ><span>Code Of Ethics</span></h2>
+			</div>
+			<ul class="numbered-list-xl num-list-2" style="width: 100%; text-align: center;">
+				<li>
+					<img src="images/content/leaves icon.png"  alt="">	
+					Will not judge, nor abuse, nor blame the client no matter what the problem might be.
+				</li>
+				<li>
+					<p>
+						<img src="images/content/leaves icon.png"  alt="">	
+						The customer’s right to programs provided based on a scientific research 
+						and not based on other falsities or pseudoscience.
+				  </p>
+				</li>
+				<li >
+					<p>
+						<img src="images/content/leaves icon.png"  alt="">	
+						The client has the right to obtain his full period, and in the case of shortened 
+						period due to circumstances not under the client’s control, the client would be compensated with additional time.
+				  </p>
+				</li>
+			</ul>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+		
+		</div>
+		
+		<div class="dot-container">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+		
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+		
+	
+	
+
 	<!--//section-->
 
 		<!--section events-->
