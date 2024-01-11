@@ -105,10 +105,6 @@ li::marker{
   background-attachment: fixed;
 }
 @media only screen and (max-width: 600px) {
-  .mySlides li{
-    width: 50% !important;
-    margin-left: -30% !important;
-  }
   .ser-bg{
     background-position: center center ;
     background-repeat:repeat-y !important;

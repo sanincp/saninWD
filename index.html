@@ -145,7 +145,7 @@
 				</div>
 			
 				<div class="slide">
-					<div  class="img--holder"  data-bg="images/content/slider/slide-03.jpg"></div>
+					<div  class="img--holder" style="filter: brightness(50%) !important; " data-bg="images/content/slider/slide-03.jpg"></div>
 					<div class="slide-content center">
 						<div class="vert-wrap container">
 							<div class="vert">
@@ -243,15 +243,15 @@
 		</div>
 	</div>
 	<!--//section-->
-	<div class="title-wrap text-center " style="background: #afb78e53">
+	<div class="title-wrap text-center " style="background: #afb78e53 ; padding-top: 2rem; padding-bottom: 4rem; margin-bottom: -2.5%;" >
 		<div class="h-sub theme-color">تعرف على فريقنا</div>
 		<h1>فريقنا المتخصص</h1>
 		<div class="h-decor"></div>
 		<center> <div class="slide-btn" style="margin-top: 2rem;"><a href="doctor-ar.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>التقي بفريقنا</span><i class="icon-right-arrow"></i></a></div></center>
 	</div>
 	<!--section services-->
-	<div class="ser-bg" style="background-image: url(images/content/slider/bg1.jpg) !important;">
-	<div class="section" id="servicesSection" >
+	<div class="ser-bg" style="background-image: url(images/content/slider/bg1.jpg) !important; margin-bottom: 0px !important;">
+	<div class="section" id="servicesSection"  style="margin-top: 0cap !important;">
 		<div class="container" >
 			<div class="title-wrap text-center">
 				<h2 class="h1" style="padding-top: 1.5rem;">خدماتنا</h2>
@@ -542,14 +542,15 @@
 	<style>
 		/* Slideshow container */
 		.slideshow-container {
-		  height:60vh !important;
+			overflow: hidden;
+		  height:100% !important;
+		  width: 100% !important;
 		  position: relative;
 		}
 		
 		/* Slides */
 		.mySlides {
-		  display: none;
-		  padding: 80px;
+		  padding: 10px 10px;
 		  text-align: center;
 		}
 		
@@ -604,25 +605,28 @@
 		  background-color: #717171;
 		}
 		
-		.numbered-list-xl li{
-			width: 100%;
+		.numbered-list-xl-2 p{
+			margin-right: 3rem !important;
+		}
+
+		.numbered-list-xl-2 li{
+			width: 100% !important;
 		}
 		
 		/* Add a blue color to the author */
 		.author {color: cornflowerblue;}
 		</style>
-		</head>
-		<body>
-		
-		<div class="slideshow-container" id="Ethics" style="background: #afb78e53">
+
+		<div style=" padding-top: 4rem; margin-top: -5%;">
+		<div class="slideshow-container" id="Ethics"  >
 		
 		<div class="mySlides">
 			<div class="title-wrap" style="text-align: center !important;">
 				<div class="h-sub theme-color">Life <img src="images/content/wd text.png" style="height: 15px; width: 25px;" alt=""></div>
 				<h2 class="h1"><span>ميثاق الأخلاقي</span></h2>
 			</div>
-			<ul class="numbered-list-xl" style="width: 100%; text-align: center !important; ">
-				<li data-num='01.' >
+			<ul class="numbered-list-xl numbered-list-xl-2" style=" width: 100%; text-align: center !important; ">
+				<li>
 					
 					<p style="text-align-last: center !important;">
 						<img src="images/content/leaves icon.png"  alt="">		نلتزم بأنظمة المملكة العربية السعودية، ونلتزم أن لا تتنافي برامجنا مع أي شيء يساهم في المساس بالقيادة السياسية للملكة. 
@@ -646,7 +650,7 @@
 				<div class="h-sub theme-color">Life <img src="images/content/wd text.png" style="height: 15px; width: 25px;" alt=""></div>
 				<h2 class="h1"><span>ميثاق الأخلاقي</span></h2>
 			</div>
-			<ul class="numbered-list-xl" style="width: 100%; text-align: center;">
+			<ul class="numbered-list-xl numbered-list-xl-2" style="width: 100%; text-align: center;">
 				<li data-num='2.2'>
 					
 				<p><img src="images/content/leaves icon.png"  alt="">	 حقوق وواجبات العميل.
@@ -668,7 +672,7 @@
 				<div class="h-sub theme-color">Life <img src="images/content/wd text.png" style="height: 15px; width: 25px;" alt=""></div>
 				<h2 class="h1"><span>ميثاق الأخلاقي</span></h2>
 			</div>
-			<ul class="numbered-list-xl" style="width: 100%; text-align: justify !important;">
+			<ul class=" numbered-list-xl numbered-list-xl-2" style="width: 100%; text-align: justify !important;">
 				<li data-num='2.4'>
 						
 					 <p> <img src="images/content/leaves icon.png"  alt=""> عدم الحكم عليه أو الإساءة له أو توجيه اللوم إليه مهما كانت مشكلته.</p>
@@ -694,7 +698,9 @@
 		  <span class="dot" onclick="currentSlide(2)"></span> 
 		  <span class="dot" onclick="currentSlide(3)"></span> 
 		</div>
-		
+
+		</div>
+
 		<script>
 		var slideIndex = 1;
 		showSlides(slideIndex);
@@ -723,7 +729,7 @@
 		  dots[slideIndex-1].className += " active";
 		}
 		</script>
-		
+		</div>
 	
 	
 
