@@ -242,3 +242,6 @@ ul {
   top: -10px;
   width: 120px;
 }
+.equal-height .item{
+  height: 100% !important;
+}

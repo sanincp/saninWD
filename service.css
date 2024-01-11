@@ -144,7 +144,9 @@ ul {
 .we-offer-area .our-offer-items.less-carousel .equal-height {
   margin-bottom: 30px;
 }
-
+.equal-height .item{
+  height: 100% !important;
+}
 .we-offer-area.item-border-less .item .number {
   font-family: "Poppins",sans-serif;
   font-size: 50px;
