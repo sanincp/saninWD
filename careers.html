@@ -112,73 +112,88 @@
 <div class="section ser-bg" style="padding-top: 2rem; padding-bottom: 2rem; background-image: url(images/content/slider/bg1.jpg) !important;">
 	<div class="container">
 		<div class="title-wrap text-center">
-			<div class="h-sub theme-color">Meet the Team</div>
-			<h1>Our Specialists</h1>
+			<div class="h-sub theme-color"></div>
+			<h1>Apply Now for a vacancy</h1>
 			<div class="h-decor"></div>
 		</div>
-		<p class="text-center max-600">We offer highly specialised psychological care, on one site, from some of the foremost national and international specialists in their fields of psychology</p>
 		<div class="row ">
-			<div class="slide-container swiper">
-				<div class="slide-content">
-					<div class="card-wrapper swiper-wrapper">
-					
-						<div class="card swiper-slide">
-							<div class="image-content">
-								<span class="overlay"></span>
-	
-								<div class="card-image">
-								 <img src="images/content/female doctor avathar.png" alt="" class="card-img">                            </div>
-								</div>
-	
-							<div class="card-content">
-								<h2 class="name">Dr. Wafa Abdullatif Mira</h2>
-								<p class="description">Psychotherapy consultant</p>
-	
-								<a href="index.html#contactForm" class="button">Book Now</a>
-							</div>
-						</div>
-
-						<div class="card swiper-slide">
-							<div class="image-content">
-								<span class="overlay"></span>
-	
-								<div class="card-image">
-								 <img src="images/content/doctor male avathar.png" alt="" class="card-img">                            </div>
-								</div>
-	
-							<div class="card-content">
-								<h2 class="name">Dr. Ahmed Mustafa Al-Qousy </h2>
-								<p class="description">Psychotherapy consultant</p>
-	
-								<a href="index.html#contactForm" class="button">Book Now</a>
-							</div>
-						</div>
-
-						<div class="card swiper-slide">
-							<div class="image-content">
-								<span class="overlay"></span>
-	
-								<div class="card-image">
-								 <img src="images/content/doctor male avathar.png" alt="" class="card-img">                            </div>
-								</div>
-	
-							<div class="card-content">
-								<h2 class="name">Mr. Hossam Mahmoud Al-Masry</h2>
-								<p class="description">Psychotherapy Specialist</p>
-	
-								<a href="index.html#contactForm" class="button">Book Now</a>
-							</div>
-						</div>
-
+			<div class=" swiper">
+				<div class="">
+                    <form action="">
+					<div class="card-wrapper">
+					<span class="label">Full Name</span><br>
+					<input type="text" required><br>
+                    <span class="label">E-mail</span><br>
+					<input type="email" required ><br>
+                    <span class="label">Phone Number</span><br>
+					<input type="number" required><br>
+                    <span class="label">Uplaod CV</span><br>
+                    <input type="file" required><br>
+                    <span class="label">Citizen</span><br>
+					<input type="text"><br>
+                    <span class="label">Residential Address</span><br>
+					<input type="text"><br>
+                    <span class="label">Year Of Experience</span><br>
+					<input type="number"><br>
+                    <span class="label">Specialization</span><br>
+					<input type="text"><br>
+                    <span class="label">Alma Mater & Degree</span><br>
+					<input type="text"><br>
+                    <span class="label">Uplaod Degree / Diploma</span><br>
+                    <input type="file"><br>
+                    <span class="label">Uplaod ID Proof</span><br>
+                    <input type="file"><br>
+                    <button type="submit" class="frm-btn">Submit <i class="bi bi-send"></i></button>
 					</div>
+                </form>    
 				</div>
 	
-				<div class="swiper-button-next swiper-navBtn"></div>
-				<div class="swiper-button-prev swiper-navBtn"></div>
-				<div class="swiper-pagination"></div>
 			</div>
 	</div>
 </div>
+<style>
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+    input[type=file]::file-selector-button {
+  border: 0px ;
+  border-radius: .2em;
+  color: white;
+  font-weight: bold;
+  background-color: #5b8e56;
+  transition: 1s;
+}
+input[type=file]::file-selector-button:hover {
+  background-color: #b6957c;
+  cursor: pointer;
+}
+    .card-wrapper{
+        width: 20rem !important;
+    }
+    input{
+        border: #5b8e56 3px solid;
+        border-radius: 10px;
+        background: rgba(245, 245, 245, 0.676);
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+    .label{
+        font-weight: bold;
+        color: #b6957c;
+        font-size: 18px;
+    }
+    .frm-btn{
+        background: #5b8e56;
+        color: #fff;
+        border: #5b8e56 solid;
+        padding: .3rem 1rem;
+        font-weight: bold;
+        margin-top: .5rem;
+        border-radius: 10px;
+    }
+</style>
 </div>
 <!--//section specialists-->
 
